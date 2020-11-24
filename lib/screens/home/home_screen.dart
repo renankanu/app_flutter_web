@@ -1,3 +1,4 @@
+import 'package:app_flutter_web/screens/home/widgets/app_bar.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -13,6 +14,9 @@ class HomeScreen extends StatelessWidget {
             image: AssetImage('assets/images/bg.png'),
             fit: BoxFit.cover,
           ),
+        ),
+        child: Column(
+          children: [CustomAppBar()],
         ),
       ),
     );
