@@ -1,4 +1,5 @@
 import 'package:app_flutter_web/screens/home/widgets/app_bar.dart';
+import 'package:app_flutter_web/screens/home/widgets/body.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -16,7 +17,10 @@ class HomeScreen extends StatelessWidget {
           ),
         ),
         child: Column(
-          children: [CustomAppBar()],
+          children: [
+            CustomAppBar(),
+            Body(),
+          ],
         ),
       ),
     );
