@@ -24,6 +24,31 @@ class Body extends StatelessWidget {
               fontSize: 20,
               color: kTextColor.withOpacity(0.34),
             ),
+          ),
+          SizedBox(height: 20),
+          FittedBox(
+            child: FlatButton(
+              onPressed: () {},
+              child: Container(
+                decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(20),
+                    color: kDarkButtonColor),
+                child: Padding(
+                  padding:
+                      const EdgeInsets.symmetric(horizontal: 20, vertical: 8),
+                  child: Row(
+                    children: [
+                      Text(
+                        'Get Started',
+                        style: TextStyle(
+                          color: kPrimaryColor,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            ),
           )
         ],
       ),
