@@ -44,6 +44,11 @@ class Body extends StatelessWidget {
                           color: kPrimaryColor,
                         ),
                       ),
+                      SizedBox(width: 8),
+                      Image.asset(
+                        'assets/images/arrowR.png',
+                        height: 20,
+                      )
                     ],
                   ),
                 ),
