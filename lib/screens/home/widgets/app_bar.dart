@@ -1,4 +1,3 @@
-import 'package:app_flutter_web/constant.dart';
 import 'package:app_flutter_web/images.dart';
 import 'package:app_flutter_web/widgets/default_button.dart';
 import 'package:flutter/material.dart';
