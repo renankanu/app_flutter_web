@@ -1,6 +1,7 @@
 import 'dart:ui';
 
 import 'package:app_flutter_web/constant.dart';
+import 'package:app_flutter_web/images.dart';
 import 'package:flutter/material.dart';
 
 class Body extends StatelessWidget {
@@ -46,7 +47,7 @@ class Body extends StatelessWidget {
                       ),
                       SizedBox(width: 8),
                       Image.asset(
-                        'assets/images/arrowR.png',
+                        Images.arrowR,
                         height: 20,
                       )
                     ],
